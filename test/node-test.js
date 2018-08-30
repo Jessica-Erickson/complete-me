@@ -5,15 +5,11 @@ describe('Node', () => {
   let node;
 
   beforeEach(() => {
-    node = new Node('a', false);
+    node = new Node(false);
   });
 
   it('should be an object', () => {
     assert.isObject(node);
-  });
-
-  it('should have a name', () => {
-    assert.equal(node.letter, 'a');
   });
 
   it('should be able to have children', () => {
