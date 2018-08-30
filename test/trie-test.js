@@ -36,7 +36,7 @@ describe('Trie', () => {
     assert.equal(trie.wordCount, 2);
   });
 
-  it.skip('should be able to suggest words based on partial strings', () => {
+  it('should be able to suggest words based on partial strings', () => {
     trie.insert('hello');
     trie.insert('world');
 
@@ -59,7 +59,7 @@ describe('Trie', () => {
     assert.equal(trie.wordCount, 234371);
   });
 
-  it.skip('should be able to remove words the user no longer wants', () => {
+  it('should be able to remove words the user no longer wants', () => {
     const text = "/usr/share/dict/words";
     const dictionary = fs.readFileSync(text).toString().trim().split('\n');
 
