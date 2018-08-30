@@ -1,0 +1,46 @@
+/*----------[ NO FLEX ZONE ]----------*/
+
+* {
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #75BDFF;
+  color: #042645;
+  font-family: 'Inconsolata', monospace;
+}
+
+/*----------[ NO FLEX ZONE ]----------*/
+
+main {
+  background-color: #FFE4B8;
+  box-shadow: 0px 0px 1rem .2rem #61420F;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 50rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  display: block;
+  font-size: 1rem;
+  height: 2rem;
+  margin: 1rem auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  width: 50%;
+}
+
+/*----------[ NO FLEX ZONE ]----------*/
+/*----------[ NO FLEX ZONE ]----------*/
+/*----------[ NO FLEX ZONE ]----------*/
+/*----------[ NO FLEX ZONE ]----------*/
+/*----------[ NO FLEX ZONE ]----------*/
+/*----------[ NO FLEX ZONE ]----------*/
