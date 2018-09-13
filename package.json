@@ -2,7 +2,7 @@
   "name": "boilerplate",
   "version": "1.0.0",
   "description": "20% Cooler Boilerplate",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
